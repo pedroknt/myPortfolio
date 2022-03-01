@@ -2,66 +2,38 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Pedro H Rêgo Veras</title>
-    <!--Estilo da página-->
-    <style>
-        h1 {
-            color: orangered;
-        }
-        
-        body {
-            background-color: rgb(107, 100, 112);
-        }
-
-        #habilidades{
-
-            color: orange;
-        }
-
-        #description{
-            color: orange;
-        }
-
-        #skills{
-            color: orangered;
-        }
-
-        #git{
-            color: black;
-        }
-
-        #linkedin{
-            color: black;
-        }
-
-        #link-about{
-            color:black
-        }
-
-        #link-skills{
-            color: black;
-        }
-
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedro Henrique Rêgo Veras</title>
 </head>
 <body>
-    <center>
-    
-        <li> <a id="link-about" href="#me">Sobre mim</alink-a</li>
-        <li> <a id="link-skills" href="#skills">Habilidades que mais me orgulho</a></li>
-    
-    <h1>Pedro Henrique Rêgo Veras</h1>
-    <img id="me" src="./IMG_20200628_154719.jpg" width="250px" alt="Foto de Pedro Henrique Rêgo Veras">
-    <br>
-    <p id="description">Estudante de Desenvolvimento Web na Trybe em busca do Sucesso. <br> Brasileiro, Maranhense, apaixonado por Livros, Cinema e Tecnologia.</p>
-    
-    <p> <a id="git" href="https://github.com/pedroknt" target="_blank">GitHub</a></p>
-    <p> <a id="linkedin" href="https://www.linkedin.com/in/pedroknt/" target="_blank">Linkedin</a></p>
-   
-    <p id="skills"><strong>Habilidades que mais me orgulho:</strong></p>
-        
-        <p id="habilidades">Empatia <br> Comunicação <br> Resiliência </p>
-        
-    </center>
+    <header class="principal">
+        <div class="logo">
+        <img src="img/logo.png" alt="PH"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="me">
+        <h1>Pedro Henrique Rêgo Veras</h1>
+        <img src="/img/me.jpg" alt="imagem de Pedro Henrique">
+    </div>
+    <div class="description">
+        <p id="about">Estudante de Desenvolvimento Web na Trybe em busca do Sucesso. <br> Brasileiro, Maranhense, apaixonado por Livros, Cinema e Tecnologia.</p>
+        </div>
+        <header class="baixa">
+        </header>
+        <div class="fim">
+        <ul id="contact">
+            <li>@konote_</li>
+            <li>pedynfreyttas@gmail.com</li>
+            <li>Linkedin</li>
+        </ul>
+    </div>
 </body>
 </html>
