@@ -56,7 +56,7 @@ header .menu ul{
  .me h1{
      font-size: 20px;
      position: absolute;
-     top: 100px;
+     top: 84px;
      left: 66.3%;
  }
 .description p{
@@ -86,5 +86,8 @@ header .menu ul{
 ul li{
     list-style: none;
     padding:5px ;
+}
 
+link .icon{
+    width: 100px;
 }
